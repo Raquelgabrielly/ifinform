@@ -11,10 +11,14 @@
 	<title>IFInform</title>
 </head>
 <body>
+<!-- <form method="POST" action="cadast></aro.php">  
+ -->
+	
+ 
 	<div>
 		<h4 class="light">IFinform</h2>
 
-			<button class="btn orange"><a href="">Login</a></button>
+			<button class="btn orange"><a href="login.php">Login</a></button>
 			<button class="btn green"><a href="add.php">Cadastre-se</a></button>
 		
 		
