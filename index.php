@@ -5,24 +5,30 @@
 	include_once 'includes/mensagem.php';
 ?>	
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>IFInform</title>
-</head>
-<body>
-<!-- <form method="POST" action="cadast></aro.php">  
- -->
+
 	
  
 	<div>
 		<h4 class="light">IFinform</h2>
 
-			<button class="btn orange"><a href="login.php">Login</a></button>
-			<button class="btn green"><a href="add.php">Cadastre-se</a></button>
+			<a href="login.php"><button class="btn orange">Login</button></a>
+			<a href="add.php"><button class="btn green">Cadastre-se</button></a>
+
 		
 		
 	</div>
+
+<!-- 	<form action="">
+			<div class="input-field col s12">
+			<select>
+				<option disabled selected>O que você é?</option>
+				<option value="1">Docente</option>
+				<option value="2">Aluno</option>
+				<option value="3">Funcionário</option>
+				<option value="4">Aluno</option>
+			</select>
+			<label></label>
+			</form> -->
 	
 
 		<h2 class="light">Agende um horario com facilidade</h2>
