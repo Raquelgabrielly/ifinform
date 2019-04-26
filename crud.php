@@ -36,7 +36,7 @@
 
 					<tr>
 						<td><?php echo $dados['senha']; ?></td>
-						<td><?php echo $dados['nome'] ?></td>
+						<td><?php echo $dados['nome']; ?></td>
 						<td><?php echo $dados['matricula']; ?></td>
 						<td><?php echo $dados['email']; ?></td>
 						<td><?php echo $dados['telefone']; ?></td>

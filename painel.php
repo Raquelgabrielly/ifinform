@@ -1,11 +1,11 @@
 <?php 
-    session_start();	
+ 	
 	//conexao
 	include_once 'php_action/db_connect.php';
 	//header
 	include_once 'includes/header.php';
 	//mensagem de cadastrado ou nao.
-	// include_once 'includes/mensagem.php';
+ include_once 'includes/mensagem.php';
 
 	
 ?>
