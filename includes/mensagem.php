@@ -1,6 +1,9 @@
 <?php
 //sessao
-	session_start();
+
+include_once 'session.php';
+
+
 	if(isset($_SESSION['mensagem'])): 
 ?>
 		
