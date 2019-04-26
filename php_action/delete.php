@@ -1,6 +1,7 @@
 <?php 
 //sessao
-session_start();
+
+include_once '../includes/session.php';
 
 //conexao
 require_once "db_connect.php";

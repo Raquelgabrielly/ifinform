@@ -1,7 +1,6 @@
 <?php 
 
-session_start(); 
-  
+include_once '../includes/session.php';  
 
 require_once "db_connect.php";
 	
@@ -25,6 +24,7 @@ $row = mysqli_num_rows($result);
 if ($row == 1) {
 	$_SESSION['usuario'] = $email;
 	header('location: ../painel.php');
+	$_SESSION['mensagem'] = 'Logado';
 }
 else{
 	$_SESSION['mensagem'] = "Dados errados, tente novamente.";

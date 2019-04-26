@@ -1,6 +1,6 @@
 <?php 
 //sessao
-session_start();
+include_once '../includes/session.php';
 
 //conexao
 require_once "db_connect.php";
@@ -17,7 +17,7 @@ if(isset($_POST['enviar'])):
 	$senha = mysqli_escape_string($connect, $_POST['senha']);
 
 	// seleciona a tabela aluno do banco de dados com seus indices, e guarda as variaveis que estao com os dados que foram passados pelo formulario.
-	$sql = "INSERT INTO alunos (senha, nome, matricula, email, telefone) VALUES ( '$senha' , '$nome' , '$matricula' , '$email' , '$telefone')";
+	$sql = "INSERT INTO alunos (nome, matricula, email, telefone, senha) VALUES ('$nome' , '$matricula' , '$email' , '$telefone', '$senha')";
 
 	if(mysqli_query($connect, $sql)):
 		$_SESSION['mensagem'] = "Cadastrado com Sucesso";
