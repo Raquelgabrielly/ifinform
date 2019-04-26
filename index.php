@@ -13,6 +13,7 @@
 
 			<a href="login.php"><button class="btn orange">Login</button></a>
 			<a href="add.php"><button class="btn green">Cadastre-se</button></a>
+			<a href="agendamento.php"><button class="btn blue">Agendar</button></a>
 
 		
 		
