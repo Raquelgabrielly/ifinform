@@ -28,4 +28,22 @@
     <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
   </li>
   <li>
-   
+    <div class="collapsible-header">
+      <i class="material-icons">watch_later</i>
+      Horário
+      </div>
+    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+  </li>
+</ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+ </div>
+ <a href="index.php" class="btn blue">Página Inicial</a>
+<?php 
+  //footer
+  include_once 'includes/footer.php';
+?>
