@@ -26,3 +26,30 @@
       <span class="new badge">1</span></div>
     <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
   </li>
+ <li>
+    <div class="collapsible-header">
+      <i class="material-icons">place</i>
+      Cidade
+      <span class="badge">1</span></div>
+    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+  </li>
+  <li>
+    <div class="collapsible-header">
+      <i class="material-icons">call</i>
+      Telefone
+      <span class="badge">3</span></div>
+    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+  </li>
+</ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+ </div>
+ <a href="index.php" class="btn blue">Página Inicial</a>
+<?php 
+  //footer
+  include_once 'includes/footer.php';
+?>
