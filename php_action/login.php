@@ -21,9 +21,9 @@ $row = mysqli_num_rows($result);
 
 
 
-if ($row == 1) {
+if ($row > 0) {
 	$_SESSION['usuario'] = $email;
-	header('location: ../painel.php');
+	header('location: ../perfil-aluno.php');
 	$_SESSION['mensagem'] = 'Logado';
 }
 else{

@@ -22,12 +22,12 @@ if(isset($_POST['enviar'])):
 	if(mysqli_query($connect, $sql)):
 		$_SESSION['mensagem'] = "Cadastrado com Sucesso";
 
-		header('location: ../crud.php');
+		header('location: ../index.php');
 
 	else:
 
 		$_SESSION['mensagem'] = "Erro ao cadastrar";
-		header('location: ../crud.php');
+		header('location: ../add.php');
 	endif;
 
 endif;	
