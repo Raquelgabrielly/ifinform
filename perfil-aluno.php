@@ -7,7 +7,7 @@
 
     
 
-      <h3 class="light">Perfil do Aluno</h3>
+      <h3 class="light"> Olá <?= $_SESSION['usuario'] ?></h3>
       <div class="col s12 m8 offset-m2 l6 offset-l3">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
@@ -23,21 +23,21 @@
     <div class="collapsible-header">
       <i class="material-icons">border_color</i>
       Nome
-      <span class="new badge">1</span></div>
+      <span class="new badge"></span></div>
     <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
   </li>
  <li>
     <div class="collapsible-header">
       <i class="material-icons">place</i>
       Cidade
-      <span class="badge">1</span></div>
+      <span class="badge"></span></div>
     <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
   </li>
   <li>
     <div class="collapsible-header">
       <i class="material-icons">call</i>
       Telefone
-      <span class="badge">3</span></div>
+      <span class="badge"></span></div>
     <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
   </li>
 </ul>
