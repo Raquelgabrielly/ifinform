@@ -104,30 +104,6 @@
 
 <!-- fim do container funcionalidades -->
 
-
-<!-- começo do carrosel -->
-
- <!-- <div class="carousel carousel-slider">
-    <a class="carousel-item" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/view"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/workshop-gestao-qualidade-igarassu/@@images/ac768787-54c4-46c1-a3bb-2a604726297a.png"></a>
-
-    <a class="carousel-item" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/view"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/bolsa-permanencia.png/@@images/f36b9e87-dea7-4ea2-8e82-e200e953e5d0.png"></a>
-
-    <a class="carousel-item" href="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec"><img src="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec/nota-oficial/@@images/67e879e4-be52-4442-83c1-7b4324182e7c.png"></a>
-
-    <a class="carousel-item" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu/monitoria.png/@@images/ed2676ce-1a19-444b-8bc3-1f39d959bbe7.png"></a>
-
-		  <ul class="indicators">
-		  	<li class="indicator-item"></li>
-		  	<li class="indicator-item"></li>
-		  	<li class="indicator-item"></li>
-		  	<li class="indicator-item"></li>
-		  </ul>
-
-	</div> -->
-	
-	<!-- fim do carrosel -->
-
-
 <!-- div com imagem de background -->
 
 	<div class="parallax-container valign-wrapper">
@@ -142,6 +118,38 @@
   </div>
 
 <!-- fim da div background -->
+
+<!-- começo do carrosel -->
+
+ <div>
+	<div class="section">
+		<div class="row">
+			<br>
+	        <div class="col s12 m3">
+	          <div class="icon-block">
+	          	<br><br>
+	            <h2 class="center black-text"><i class="material-icons large">chat</i></h2>
+	            <h5 class="center">Principais Noticias</h5>
+	            <p class="center">Instituto Federal de Pernambuco campus Igarassu.</p>
+	          </div>
+	        </div>
+
+			<div class="col s12 m9">
+				<div class="carousel carousel-slider" indicators="true">
+		    <a class="carousel-item tooltipped" data-tooltip="workshop de gestão de qualidade" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/view"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/workshop-gestao-qualidade-igarassu/@@images/ac768787-54c4-46c1-a3bb-2a604726297a.png"></a>
+
+		    <a class="carousel-item tooltipped" data-tooltip="Resultado final do bolsa permanencia" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/view"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/bolsa-permanencia.png/@@images/f36b9e87-dea7-4ea2-8e82-e200e953e5d0.png"></a>
+
+		    <a class="carousel-item tooltipped" data-tooltip="Bloqueio orcamentario feito pelo mec" href="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec"><img src="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec/nota-oficial/@@images/67e879e4-be52-4442-83c1-7b4324182e7c.png"></a>
+
+		    <a class="carousel-item tooltipped" data-tooltip="Resultado final para monitoria" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu/monitoria.png/@@images/ed2676ce-1a19-444b-8bc3-1f39d959bbe7.png"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	<!-- fim do carrosel -->
 
 <!-- div com desevelvovedores -->
 
