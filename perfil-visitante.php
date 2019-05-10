@@ -7,7 +7,7 @@
 
     
 
-      <h3 class="light"> Olá <?= $_SESSION['nome'] ?></h3>
+      <h3 class="light">Olá <?= $_SESSION['nome'] ?></h3>
       <div class="col s12 m8 offset-m2 l6 offset-l3">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
@@ -24,21 +24,21 @@
       <i class="material-icons">border_color</i>
       Nome
       <span class="badge"></span></div>
-    <div class="collapsible-body"><p></p><?= $_SESSION['nome'] ?></div>
+    <div class="collapsible-body"><p><?= $_SESSION['nome'] ?></p></div>
   </li>
  <li>
     <div class="collapsible-header">
       <i class="material-icons">place</i>
-      Seu telefone
+      Telefone
       <span class="badge"></span></div>
     <div class="collapsible-body"><p><?= $_SESSION['telefone'] ?></p></div>
   </li>
   <li>
     <div class="collapsible-header">
-      <i class="material-icons">call</i>
-      Matrícula
+      <i class="material-icons">public</i>
+      CPF
       <span class="badge"></span></div>
-    <div class="collapsible-body"><p><?= $_SESSION['matricula'] ?></p></div>
+    <div class="collapsible-body"><p><?= $_SESSION['cpf'] ?></p></div>
   </li>
 </ul>
             </div>
@@ -48,7 +48,9 @@
 
   </div>
  </div>
+
  
+
 <?php 
   //footer
   include_once 'includes/footer.php';

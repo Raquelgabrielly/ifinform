@@ -5,9 +5,6 @@
 	include_once 'includes/mensagem.php';
 ?>	
 
-
-	
- 
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="perfil-aluno.php">Aluno</a></li>
   <li><a href="#!">two</a></li>
@@ -24,12 +21,17 @@
       <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Opções<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
-</nav>	
+</nav>
+	
+ 
+	<div>
+		<h4 class="light">IFinform</h2>
+
 		
 		
 	</div>
-<!--
-	<form action="">
+
+<!-- 	<form action="">
 			<div class="input-field col s12">
 			<select>
 				<option disabled selected>O que você é?</option>
@@ -39,13 +41,13 @@
 				<option value="4">Aluno</option>
 			</select>
 			<label></label>
-			</form> 
+			</form> -->
 	
 
-		<h2 class="light">Agende um horario com facilidade</h2>
+		<!-- <h2 class="light">Agende um horario com facilidade</h2>
 		<p class="light">
 			If inform é uma plataforma que te ajuda a reservar um horario para consultas dos serviços no seu campus IFPE. Praticicidade para contatar seus professores e gestores responsaveis.
-		</p>
+		</p> -->
 	
 
 	<div>
@@ -75,7 +77,5 @@
 		2019. Projeto e Pratica - IF inform
 	</div>
 
-<?php 
-	//footer
-	include_once 'includes/footer.php';
-?>
+</body>
+</html>
