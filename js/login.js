@@ -10,7 +10,6 @@ function get(id){
 	var input = get('perfil');
 	var label = get('label');
 
-
 	perfilDiscente.addEventListener('click', function add(evt) {
 			evt.preventDefault();
 			input.type = 'text';
