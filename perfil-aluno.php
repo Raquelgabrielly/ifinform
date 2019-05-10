@@ -5,6 +5,16 @@
   include_once 'includes/mensagem.php';
 ?>  
 
+<nav>
+    <div class="nav-wrapper">
+      <a href="index.php" class="brand-logo center">IFinform</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
     
 
       <h3 class="light"> Olá <?= $_SESSION['usuario'] ?></h3>
@@ -40,7 +50,7 @@
       <span class="badge"></span></div>
     <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
   </li>
-</ul>
+    </ul>
             </div>
           </div>
         </div>
