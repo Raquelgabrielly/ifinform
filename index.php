@@ -1,28 +1,9 @@
 <?php  
 //header
-	include_once 'includes/header.php';
+	include_once 'includes/header-index.php';
 	//mensagem de cadastrado ou nao.
 	include_once 'includes/mensagem.php';
-?>	
-
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="perfil-aluno.php">Aluno</a></li>
-  <li><a href="#!">two</a></li>
-  <li class="divider"></li>
-  <li><a href="#!">three</a></li>
-</ul>
-<nav>
-  <div class="nav-wrapper">
-    <a href="index.php" class="brand-logo center">IFiform</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="add.php">Cadastre-se</a></li>
-      <li><a href="login.php">Login</a></li>
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Opções<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
-  </div>
-</nav>
-	
+?>		
  
 	<div>
 		<h4 class="light">IFinform</h2>
@@ -77,5 +58,9 @@
 		2019. Projeto e Pratica - IF inform
 	</div>
 
-</body>
-</html>
+<?php 
+
+include_once 'includes/footer.php';
+
+?>
+

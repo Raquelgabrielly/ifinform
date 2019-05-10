@@ -1,6 +1,7 @@
 <?php  
 //header
-  include_once 'includes/header.php';
+  include_once 'includes/header-docente.php';
+  //mensagem de cadastrado ou nao.
   include_once 'includes/mensagem.php';
 ?>  
 

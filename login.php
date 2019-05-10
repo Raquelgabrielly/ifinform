@@ -1,14 +1,10 @@
 <?php 
+
 	//header
-	include_once 'includes/header.php';
-	//conexao	
+	include_once 'includes/header-login.php';
+	//mensagem
 	include_once 'includes/mensagem.php';
-
-	// if ($_SESSION['mensagem'] == "Logado") {
-	// 	header('location: php_action/logout.php');
-	// }
- ?>
-
+?>
 
     <div class="row">
     	<div class="col s12 m6 push-m3">

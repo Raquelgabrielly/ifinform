@@ -1,6 +1,6 @@
 <?php  
 //header
-  include_once 'includes/header.php';
+  include_once 'includes/header-discente.php';
   //mensagem de cadastrado ou nao.
   include_once 'includes/mensagem.php';
 ?>  
