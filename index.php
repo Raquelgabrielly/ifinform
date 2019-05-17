@@ -40,7 +40,7 @@
 		</div>
 
 	<!-- div da imagem de fundo -->
-  <div class="parallax"><img src="https://unifert.com.br/wp-content/uploads/2018/02/agendec-internas.png" alt="Unsplashed background img 1" style="transform: translate3d(-50%, 204.522px, 0px); opacity: 50;"></div>
+  <div class="parallax"><img src="css/agendec-internas.png" alt="Unsplashed background img 1" style="transform: translate3d(-50%, 204.522px, 0px); opacity: 50;"></div>
   </div>
 
 </div>
