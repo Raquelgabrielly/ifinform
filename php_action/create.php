@@ -90,14 +90,14 @@ elseif (isset($_POST['cpf'])) {
 	$senha = mysqli_escape_string($connect, $_POST['senha']);
 
 	// testa se os dados ja existem como usuario (visitante)
-	$query1 = "SELECT * FROM discente WHERE DISCENTE_MATRICULA = '$cpf'";
-	$query2 = "SELECT * FROM discente WHERE DISCENTE_EMAIL = '$email'";
+	$query1 = "SELECT * FROM discente WHERE VISITANTE_CPF = '$cpf'";
+	$query2 = "SELECT * FROM discente WHERE VISITANTE_EMAIL = '$email'";
 	$result1 = mysqli_query($connect, $query1);
 	$result2 = mysqli_query($connect, $query2);
 	$row1 = mysqli_num_rows($result1);
 	$row2 = mysqli_num_rows($result2);
 	if ($row1 => 1) {
-		$_SESSION['mensagem'] = "CPF já cadastrada";
+		$_SESSION['mensagem'] = "CPF já cadastrado";
 		header('location: ../add.php');
 		exit();
 	}
