@@ -26,6 +26,26 @@ if (isset($_POST['matricula'])) {
 	$telefone = mysqli_escape_string($connect, $_POST['telefone']);
 	$senha = mysqli_escape_string($connect, $_POST['senha']);
 
+	// testa se os dados ja existem como usuario
+	$query1 = "SELECT * FROM discente WHERE DISCENTE_MATRICULA = '$matricula'";
+	$query2 = "SELECT * FROM discente WHERE DISCENTE_EMAIL = '$email'";
+	$result1 = mysqli_query($connect, $query1);
+	$result2 = mysqli_query($connect, $query2);
+	$row1 = mysqli_num_rows($result1);
+	$row2 = mysqli_num_rows($result2);
+
+	if ($row1 => 1) {
+		$_SESSION['mensagem'] = "Matrícula já cadastrada";
+		header('location: ../add.php');
+		exit();
+	}
+	elseif($row2 => 1) {
+		$_SESSION['mensagem'] = "Email já cadastrado";
+		header('location: ../add.php');
+		exit();
+	}
+
+
 	$sql = "INSERT INTO discente (DISCENTE_NOME, DISCENTE_MATRICULA, DISCENTE_EMAIL, DISCENTE_TELEFONE, DISCENTE_SENHA) VALUES ('$nome' , '$matricula' , '$email' , '$telefone', '$senha')";
 
 	if(mysqli_query($connect, $sql)):
