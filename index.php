@@ -132,6 +132,9 @@
 	    <a class="carousel-item tooltipped" data-tooltip="Bloqueio orcamentario feito pelo mec" href="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec"><img src="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec/nota-oficial/@@images/67e879e4-be52-4442-83c1-7b4324182e7c.png"></a>
 
 	    <a class="carousel-item tooltipped" data-tooltip="Resultado final para monitoria" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu/monitoria.png/@@images/ed2676ce-1a19-444b-8bc3-1f39d959bbe7.png"></a>
+				
+	    <a class="carousel-item tooltipped" data-tooltip="IFPE abre inscrições para Vestibular 2019.2" href="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2"><img src="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2/vestibular-2019.2/@@images/b6890065-e842-4f69-9a1e-f7a68049d0ac.png"></a>
+
 			</div>
 		</div>
 	</div>
