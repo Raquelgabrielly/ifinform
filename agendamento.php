@@ -14,19 +14,29 @@
     		
 			<h3 class="light">Agendamento</h3>
 			
-			<form action="php_action/create.php" method="POST">
+			<form action="php_action/agendamento_logic.php" method="POST">
+
+				<!-- <div class="input-field col s12">
+					<i class="material-icons prefix">person_outline</i>
+					<input type="text" name="nome" id="nome">
+					<label for="nome">Nome Completo</label>
+				</div> -->
 
 				<div class="input-field col s12">
 					<i class="material-icons prefix">person_outline</i>
-					<input type="text" name="nomeCompleto" id="nomeCompleto">
-					<label for="nomeCompleto">Nome Completo</label>
+					Selecione um Perfil para contatar: 
+
+					<select name="destinatario" id="destinatario" class="forms">
+
+						 <!-- inserir aqui listagem de usuarios [PROFESSOR, FUNCIONARIO...]  -->
+						
 				</div>
 				
-				<div class="input-field col s12">
+				<!-- <div class="input-field col s12">
 					<i class="material-icons prefix">power_input</i>
 					<input type="text" name="matricula" id="matricula">
 					<label for="matricula">Matrícula</label>
-				</div>
+				</div> -->
 				
 				<div class="input-field col s12">
 					<i class="material-icons prefix">school</i>
@@ -50,6 +60,9 @@
 					<i class="material-icons prefix">mail_outline</i>
 				 <textarea name="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
 				</div>
+
+				<input type="hidden" name="status" value="pendente" />
+			  	<input type="hidden" name="autor" value="<?php echo $_SESSION['Login']; ?>" />
 
 				<button type="submit" name="enviar" class="btn" disabled>Agendar</button>
 				<a href="index.php" class="btn blue">Página Inicial</a>
