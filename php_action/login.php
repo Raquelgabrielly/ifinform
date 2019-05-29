@@ -27,6 +27,8 @@ if(isset($_POST['matricula'])){
 
 	if ($row > 0) {
 		while ($dados = mysqli_fetch_assoc($result)) {
+			$
+			$_SESSION['id'] = $dados['DISCENTE_ID']; 
 			$_SESSION['nome'] = $dados['DISCENTE_NOME']; 
 			$_SESSION['telefone'] = $dados['DISCENTE_TELEFONE']; 
 			$_SESSION['email'] = $dados['DISCENTE_EMAIL']; 
@@ -63,6 +65,8 @@ elseif(isset($_POST['siape'])){
 
 	if ($row > 0) {
 		while ($dados = mysqli_fetch_assoc($result)) {
+
+			$_SESSION['id'] = $dados['DOCENTE_ID']; 
 			$_SESSION['nome'] = $dados['DOCENTE_NOME']; 
 			$_SESSION['telefone'] = $dados['DOCENTE_TELEFONE']; 
 			$_SESSION['email'] = $dados['DOCENTE_EMAIL']; 
@@ -99,6 +103,8 @@ elseif(isset($_POST['cpf'])){
 
 	if ($row > 0) {
 		while ($dados = mysqli_fetch_assoc($result)) {
+
+			$_SESSION['id'] = $dados['VISITANTE_ID']; 
 			$_SESSION['nome'] = $dados['VISITANTE_NOME']; 
 			$_SESSION['telefone'] = $dados['VISITANTE_TELEFONE']; 
 			$_SESSION['email'] = $dados['VISITANTE_EMAIL']; 

@@ -29,12 +29,12 @@ if (isset($_POST['matricula'])) {
 	$result2 = mysqli_query($connect, $query2);
 	$row1 = mysqli_num_rows($result1);
 	$row2 = mysqli_num_rows($result2);
-	if ($row1 => 1) {
+	if ($row1 >= 1) {
 		$_SESSION['mensagem'] = "Matrícula já cadastrada";
 		header('location: ../add.php');
 		exit();
 	}
-	elseif($row2 => 1) {
+	elseif($row2 >= 1) {
 		$_SESSION['mensagem'] = "Email já cadastrado";
 		header('location: ../add.php');
 		exit();
@@ -63,12 +63,12 @@ elseif (isset($_POST['siape'])) {
 	$result2 = mysqli_query($connect, $query2);
 	$row1 = mysqli_num_rows($result1);
 	$row2 = mysqli_num_rows($result2);
-	if ($row1 => 1) {
+	if ($row1 >= 1) {
 		$_SESSION['mensagem'] = "SIAPE já cadastrado";
 		header('location: ../add.php');
 		exit();
 	}
-	elseif($row2 => 1) {
+	elseif($row2 >= 1) {
 		$_SESSION['mensagem'] = "Email já cadastrado";
 		header('location: ../add.php');
 		exit();
@@ -96,12 +96,12 @@ elseif (isset($_POST['cpf'])) {
 	$result2 = mysqli_query($connect, $query2);
 	$row1 = mysqli_num_rows($result1);
 	$row2 = mysqli_num_rows($result2);
-	if ($row1 => 1) {
+	if ($row1 >= 1) {
 		$_SESSION['mensagem'] = "CPF já cadastrado";
 		header('location: ../add.php');
 		exit();
 	}
-	elseif($row2 => 1) {
+	elseif($row2 >= 1) {
 		$_SESSION['mensagem'] = "Email já cadastrado";
 		header('location: ../add.php');
 		exit();
