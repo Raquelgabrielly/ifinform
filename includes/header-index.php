@@ -10,7 +10,7 @@ include_once 'header.php';
 </ul> -->
 <div class="navbar-fixed">
   <nav>
-    <div class="nav-wrapper green">
+    <div class="nav-wrapper green darken-2">
       <a href="index.php" class="brand-logo center">IFinform</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="add.php">Cadastre-se</a></li>

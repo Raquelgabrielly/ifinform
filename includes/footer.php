@@ -1,9 +1,9 @@
-<footer class="page-footer green">
+<footer class="page-footer green darken-2">
 <div class="container">
 	<div class="row">
 		<div class="col l6 s12">
 			<h5 class="white-text">Siga-nos nas redes!</h5>
-			<p class="grey-text text-lighten-4">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</p>
+			<a href="https://www.instagram.com/ifpecampusigarassu/?hl=pt-br"> instagran do iF</a>
 		</div>
 		<div class="col l4 offset-l2 s12">
 			<h5 class="white-text">Menu</h5>
