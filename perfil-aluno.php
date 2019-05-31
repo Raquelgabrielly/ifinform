@@ -3,6 +3,8 @@
   include_once 'includes/header-discente.php';
   //mensagem de cadastrado ou nao.
   include_once 'includes/mensagem.php';
+
+  require_once "php_action/db_connect.php";
 ?>  
 
     
@@ -58,6 +60,8 @@
 </div>
 </div>
 
+
+<!-- Agendamento -->
 <div id="agenda">
   <div class="row">
     <div class="col s12 m8 offset-m2 l6 offset-l3 z-depth-1">
@@ -66,9 +70,18 @@
           <form action="php_action/agendamento_logic.php" class="col s12">
             <div class="input-field col s12">
               <select>
-                <option value="" disabled selected>Com quem agendar?</option>
-                <option value="1">Option 1</option>
-                <!-- AINDA TA EM CODIFICAÇÃO, MAS A IDEIA ESTA AI, PARA A PAGINA DE AGENDAMENTO -->
+                <option value="" disabled selected>Agendar com qual Docente?</option>
+                 <?php 
+                  $query = "SELECT * FROM docente";
+                  $result = mysqli_query($connect, $query);
+
+                  while($dados = mysqli_fetch_assoc($result)):
+                 ?>
+
+                    <option value="<?= $dados['DOCENTE_ID'] ?>"><?= $dados['DOCENTE_NOME']; ?></option>
+
+                  <?php endwhile; ?>
+                  <!-- AINDA TA EM CODIFICAÇÃO, MAS A IDEIA ESTA AI, PARA A PAGINA DE AGENDAMENTO -->
               </select>
             <label>Materialize Select</label>
             </div>
