@@ -4,34 +4,20 @@
 	//mensagem de cadastrado ou nao.
 	include_once 'includes/mensagem.php';
 ?>		
- 
-
-<!-- 	<form action="">
-			<div class="input-field col s12">
-			<select>
-				<option disabled selected>O que você é?</option>
-				<option value="1">Docente</option>
-				<option value="2">Aluno</option>
-				<option value="3">Funcionário</option>
-				<option value="4">Aluno</option>
-			</select>
-			<label></label>
-		</form> -->
-	
 
 <div id="index-banner" class="parallax-container">
 	    <div class="section no-pad-bot">
 	 	<!-- container com headline e mini-descrição do site -->
 	      <div class="container">
 	        <br><br>   	
-
-	        	<h1 class="header center teal-text text-lighten-2">Agende um horario com facilidade</h1>
+                
+	        	<h1 class="header center white-text text-lighten-2">Agende um horario com facilidade</h1>
 		        <div class="row center">
 		          <h5 class="header col s12 light">If inform é uma plataforma que te ajuda a reservar um horario para consultas dos serviços no seu campus IFPE.</h5>
 		        </div>
 
 		        <div class="row center">
-		          <a href="add.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Cadastre-se no IF inform</a>
+		          <a href="add.php" id="download-button" class="btn-large waves-effect waves-light green darken-2 lighten-1">Cadastre-se no IF inform</a>
 		        </div>
 
 	        <br><br>
@@ -57,31 +43,25 @@
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Descomplicado e Rápido</h5>
 
-            <p class="light">Praticicidade para contatar seus professores e gestores responsaveis.</p>
+            <p class="light">Praticicidade para contactar seus professores e gestores responsáveis.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">TITULO 2</h5>
+            <h5 class="center">Momento você e o Professor</h5>
 
-            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+            <p class="light">Reverse um horário para tira duvidas, pedir sugestão de livro ao professor em que você está em dificuldade de aprendizado .</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">TITULO 3</h5>
+            <h5 class="center">Agendamento online</h5>
 
-            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat</p>
+            <p class="light">Por meio do agendamento você terá um contato direto com o professor proporcionando maior interação e aprendizado.</p>
           </div>
         </div>
       </div>
@@ -133,7 +113,7 @@
 
 	    <a class="carousel-item tooltipped" data-tooltip="Resultado final para monitoria" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu/monitoria.png/@@images/ed2676ce-1a19-444b-8bc3-1f39d959bbe7.png"></a>
 				
-	    <a class="carousel-item tooltipped" data-tooltip="IFPE abre inscrições para Vestibular 2019.2" href="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2"><img src="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2/vestibular-2019.2/@@images/b6890065-e842-4f69-9a1e-f7a68049d0ac.png"></a>
+	    <a class="carousel-item tooltipped" data-tooltip="IFPE abre inscrições para Vestibular 2019.2" href="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2"><img src="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2/banner-site-vestibular-01.png/@@images/210c7f11-7db7-4837-89c2-1ff095afc5ad.png"></a>
 
 			</div>
 		</div>
