@@ -13,11 +13,11 @@
                 
 	        	<h1 class="header center white-text text-lighten-2">Agende um horário com facilidade</h1>
 		        <div class="row center">
-		          <h5 class="header col s12 light">Ifinform é uma plataforma que te ajuda a reservar um horário para consultas dos serviços no seu campus IFPE.</h5>
+		          <h5 class="header col s12 light">Ifinform é uma plataforma que reserva um horário para consultas dos serviços no seu campus IFPE Igarassu.</h5>
 		        </div>
 
 		        <div class="row center">
-		          <a href="add.php" id="download-button" class="btn-large waves-effect waves-light green darken-2 lighten-1">Cadastre-se no IF inform</a>
+		          <a href="add.php" id="download-button" class="btn-large waves-effect waves-light green darken-2 lighten-1">Cadastre-se no IFinform</a>
 		        </div>
 
 	        <br><br>
@@ -105,15 +105,15 @@
 
 		<div class="col s12 m6">
 			<div class="carousel carousel-slider" indicators="true">
-	    <a class="carousel-item tooltipped" data-tooltip="workshop de gestão de qualidade" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/view"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/workshop-gestao-qualidade-igarassu/@@images/ac768787-54c4-46c1-a3bb-2a604726297a.png"></a>
+	    <a class="carousel-item tooltipped" data-tooltip="workshop de gestão de qualidade" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/view" target="_blank"<img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/campus-igarassu-promove-workshop-de-gestao-de-qualidade/workshop-gestao-qualidade-igarassu/@@images/ac768787-54c4-46c1-a3bb-2a604726297a.png"></a>
 
-	    <a class="carousel-item tooltipped" data-tooltip="Resultado final do bolsa permanencia" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/view"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/bolsa-permanencia.png/@@images/f36b9e87-dea7-4ea2-8e82-e200e953e5d0.png"></a>
+	    <a class="carousel-item tooltipped" data-tooltip="Resultado final do bolsa permanencia" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/view" target="_blank"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-do-bolsa-permanencia-para-campus-igarassu/bolsa-permanencia.png/@@images/f36b9e87-dea7-4ea2-8e82-e200e953e5d0.png"></a>
 
-	    <a class="carousel-item tooltipped" data-tooltip="Bloqueio orcamentario feito pelo mec" href="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec"><img src="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec/nota-oficial/@@images/67e879e4-be52-4442-83c1-7b4324182e7c.png"></a>
+	    <a class="carousel-item tooltipped" data-tooltip="Bloqueio orcamentario feito pelo mec" href="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec" target="_blank"><img src="http://portal.ifpe.edu.br/noticias/ifpe-se-posiciona-sobre-bloqueio-orcamentario-feito-pelo-mec/nota-oficial/@@images/67e879e4-be52-4442-83c1-7b4324182e7c.png"></a>
 
-	    <a class="carousel-item tooltipped" data-tooltip="Resultado final para monitoria" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu/monitoria.png/@@images/ed2676ce-1a19-444b-8bc3-1f39d959bbe7.png"></a>
+	    <a class="carousel-item tooltipped" data-tooltip="Resultado final para monitoria" href="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu" target="_blank"><img src="http://portal.ifpe.edu.br/campus/igarassu/noticias/sai-resultado-final-para-monitoria-de-igarassu/monitoria.png/@@images/ed2676ce-1a19-444b-8bc3-1f39d959bbe7.png"></a>
 				
-	    <a class="carousel-item tooltipped" data-tooltip="IFPE abre inscrições para Vestibular 2019.2" href="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2"><img src="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2/banner-site-vestibular-01.png/@@images/210c7f11-7db7-4837-89c2-1ff095afc5ad.png"></a>
+	    <a class="carousel-item tooltipped" data-tooltip="IFPE abre inscrições para Vestibular 2019.2" href="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2" target="_blank"><img src="http://portal.ifpe.edu.br/noticias/ifpe-abre-inscricoes-para-vestibular-2019.2/banner-site-vestibular-01.png/@@images/210c7f11-7db7-4837-89c2-1ff095afc5ad.png"></a>
 
 			</div>
 		</div>
