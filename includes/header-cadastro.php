@@ -13,7 +13,7 @@ include_once 'header.php';
     <a href="index.php" class="brand-logo center">IFinform</a>
     <ul class="right hide-on-med-and-down">
       <li><a href="index.php">Início</a></li>
-      <li><a href="login.php">Login</a></li>
+      <li><a href="login.php">Entrar</a></li>
       <!-- Dropdown Trigger -->
       <!-- <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Opções<i class="material-icons right">arrow_drop_down</i></a></li> -->
     </ul>
