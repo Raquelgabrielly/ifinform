@@ -3,14 +3,16 @@
 	<div class="row">
 		<div class="col l6 s12">
 			<h5 class="white-text">Siga-nos nas redes!</h5>
-			<a href="https://www.instagram.com/ifpecampusigarassu/?hl=pt-br"> instagran do iF</a>
+			<a class="grey-text text-lighten-3" href="https://www.instagram.com/ifpecampusigarassu/?hl=pt-br" target="_blank">Instagram - @ifpecampusigarassu
+</a>
+			<br><a class="grey-text text-lighten-3" href="https://www.facebook.com/ifpecampusigarassu/" target="_blank">Facebook - @ifpecampusigarassu</a>
 		</div>
 		<div class="col l4 offset-l2 s12">
 			<h5 class="white-text">Menu</h5>
 			<ul>
-				<li><a class="grey-text text-lighten-3" href="index.php">Home</a></li>
-				<li><a class="grey-text text-lighten-3" href="#!">Sobre</a></li>
-				<li><a class="grey-text text-lighten-3" href="#!">Contato</a></li>
+				<li><a class="grey-text text-lighten-3" href="index.php" target="_blank">Home</a></li>
+				<li><a class="grey-text text-lighten-3" href="add.php" target="_blank">Cadastre-se</a></li>
+				<li><a class="grey-text text-lighten-3" href="login.php" target="_blank">Entrar</a></li>
 				<li><a class="grey-text text-lighten-3" href="#!">Desenvolvedores</a></li>
 			</ul>
 		</div>
@@ -19,7 +21,7 @@
 	<div class="footer-copyright">
 		<div class="container">
 			© 2019 Copyright Text
-			<a class="grey-text text-lighten-4 right" href="#!">Mais Links</a>
+			<a class="grey-text text-lighten-4 right" href="https://portal.ifpe.edu.br/campus/igarassu" target="_blank">IFPE Campus Igarassu</a>
 		</div>
 	</div>
 </footer>
