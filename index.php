@@ -11,9 +11,9 @@
 	      <div class="container">
 	        <br><br>   	
                 
-	        	<h1 class="header center white-text text-lighten-2">Agende um horario com facilidade</h1>
+	        	<h1 class="header center white-text text-lighten-2">Agende um horário com facilidade</h1>
 		        <div class="row center">
-		          <h5 class="header col s12 light">If inform é uma plataforma que te ajuda a reservar um horario para consultas dos serviços no seu campus IFPE.</h5>
+		          <h5 class="header col s12 light">Ifinform é uma plataforma que te ajuda a reservar um horário para consultas dos serviços no seu campus IFPE.</h5>
 		        </div>
 
 		        <div class="row center">
@@ -43,7 +43,7 @@
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Descomplicado e Rápido</h5>
 
-            <p class="light">Praticicidade para contactar seus professores e gestores responsáveis.</p>
+            <p class="light">Praticidade para contactar seus professores e gestores responsáveis.</p>
           </div>
         </div>
 
@@ -52,7 +52,7 @@
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
             <h5 class="center">Momento você e o Professor</h5>
 
-            <p class="light">Reverse um horário para tira duvidas, pedir sugestão de livro ao professor em que você está em dificuldade de aprendizado .</p>
+            <p class="light">Reverse um horário para tirar suas duvidas, pedir sugestões de livros para os professores em que você está com dificuldade de aprendizado.</p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Agendamento online</h5>
 
-            <p class="light">Por meio do agendamento você terá um contato direto com o professor proporcionando maior interação e aprendizado.</p>
+            <p class="light">Por meio do agendamento você terá um contato direto com o professor, proporcionando maior interação e aprendizado.</p>
           </div>
         </div>
       </div>
@@ -98,8 +98,8 @@
           <div class="icon-block">
           	<br><br>
             <h2 class="center black-text"><i class="material-icons large">chat</i></h2>
-            <h5 class="center">Principais Noticias</h5>
-            <p class="center">Instituto Federal de Pernambuco campus Igarassu.</p>
+            <h5 class="center">Principais Notícias</h5>
+            <p class="center">Instituto Federal de Pernambuco Campus Igarassu.</p>
           </div>
         </div>
 
