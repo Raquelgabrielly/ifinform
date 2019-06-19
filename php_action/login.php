@@ -27,7 +27,7 @@ if(isset($_POST['matricula'])){
 
 	if ($row > 0) {
 		while ($dados = mysqli_fetch_assoc($result)) {
-			$
+			
 			$_SESSION['id'] = $dados['DISCENTE_ID']; 
 			$_SESSION['nome'] = $dados['DISCENTE_NOME']; 
 			$_SESSION['telefone'] = $dados['DISCENTE_TELEFONE']; 
