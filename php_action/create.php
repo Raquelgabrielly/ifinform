@@ -4,6 +4,7 @@ include_once '../includes/session.php';
 include_once 'init.php';
 //conexao
 require_once "db_connect.php";
+
 if (!isset($_POST['matricula']) && !isset($_POST['siape']) && !isset($_POST['cpf']) ) {
 	$_SESSION['mensagem'] = 'Insira os dados, e selecione seu Perfil';
 	header('location: ../add.php');
