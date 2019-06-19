@@ -9,7 +9,7 @@ include_once 'header.php';
   <li><a href="#!">Fórum</a></li>
   <li class="divider"></li>
   <li><a href="#!">Agenda</a></li>
-  <li><a href="../php_action/logout.php">Sair</a></li>
+  <li><a href="php_action/logout.php">Sair</a></li>
 </ul>
 <nav>
   <div class="nav-wrapper green">

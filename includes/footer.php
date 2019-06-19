@@ -13,15 +13,15 @@
 				<li><a class="grey-text text-lighten-3" href="index.php" target="_blank">Home</a></li>
 				<li><a class="grey-text text-lighten-3" href="add.php" target="_blank">Cadastre-se</a></li>
 				<li><a class="grey-text text-lighten-3" href="login.php" target="_blank">Entrar</a></li>
-				<li><a class="grey-text text-lighten-3" href="devs.php">Desenvolvedores</a></li>
+				<li><a class="grey-text text-lighten-3" href="#!">Desenvolvedores</a></li>
 			</ul>
 		</div>
 	</div>
 	</div>
 	<div class="footer-copyright">
 		<div class="container">
-			© Projeto e Pratica I - 2019 
-			<a class="grey-text text-lighten-4 right" href="https://portal.ifpe.edu.br/campus/igarassu" target="_blank">IFPE - Campus Igarassu</a>
+			© 2019 Copyright Text
+			<a class="grey-text text-lighten-4 right" href="https://portal.ifpe.edu.br/campus/igarassu" target="_blank">IFPE Campus Igarassu</a>
 		</div>
 	</div>
 </footer>
@@ -54,7 +54,7 @@
 			$(document).ready(function(){
 				
 	    	$('.datepicker').datepicker({
-				  format:'dd/mm/yyyy',
+				  format:'yyyy/mm/dd',
 				i18n:{
 				  months: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
 				  monthsShort: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
