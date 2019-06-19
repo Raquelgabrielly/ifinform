@@ -13,7 +13,7 @@
 				<li><a class="grey-text text-lighten-3" href="index.php" target="_blank">Home</a></li>
 				<li><a class="grey-text text-lighten-3" href="add.php" target="_blank">Cadastre-se</a></li>
 				<li><a class="grey-text text-lighten-3" href="login.php" target="_blank">Entrar</a></li>
-				<li><a class="grey-text text-lighten-3" href="#!">Desenvolvedores</a></li>
+				<li><a class="grey-text text-lighten-3" href="devs.php">Desenvolvedores</a></li>
 			</ul>
 		</div>
 	</div>
