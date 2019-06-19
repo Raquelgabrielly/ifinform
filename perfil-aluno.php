@@ -65,9 +65,9 @@
 <div id="agenda">
   <div class="row">
     <div class="col s12 m8 offset-m2 l6 offset-l3 z-depth-1"> 
-      <form action="php_action/agendamento_logic.php" class="col s12" id="form-agend">
+      <form action="php_action/agendamento.php" class="col s12" id="form-agend" method="POST">
         <div class="input-field col s12">
-          <select>
+          <select name="id_prof">
             <option value="" disabled selected>Agendar com qual Docente?</option>
              <?php 
               $query = "SELECT * FROM docente";
@@ -79,16 +79,27 @@
                 <option value="<?= $dados['DOCENTE_ID'] ?>"><?= $dados['DOCENTE_NOME']; ?></option>
 
               <?php endwhile; ?>
-              <!-- AINDA TA EM CODIFICAÇÃO, MAS A IDEIA ESTA AI, PARA A PAGINA DE AGENDAMENTO -->
+              <!-- faltando a logica da programação em php no arquivo: php_action/agendamento.php -->
           </select>
         </div>
         <div class="input-field col s12">
           <input type="text" class="datepicker" name="data" id="data">
           <label for="data">Data?</label>
         </div>
+
+        <div class="input-field col s12">
+          <input type="text" class="timepicker" name="hora" id="hora">
+          <label for="hora">Hora?</label>
+        </div>
+
         <div class="input-field col s12">
           <input type="text" name="assunto" id="assunt">
           <label for="assunt">Assunto</label>
+        </div>
+        <div class="input-field col s12">
+          <button class="btn waves-effect waves-light" type="submit" name="action">AGENDAR
+            <i class="material-icons right">send</i>
+          </button>
         </div>
       </form>
     </div>
